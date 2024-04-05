@@ -3,8 +3,6 @@ Dynamic Kernel Module System (DKMS)
 This intention of this README is to explain how DKMS can be used in conjunction
 with tarballs which contain a dkms.conf file within them.
 
-The DKMS project (and any updates) can be found at: https://github.com/dell/dkms
-
 Installation
 --
 
@@ -14,10 +12,9 @@ commands:
 ```
 make install
 make install-debian
-make install-redhat
 ```
 
-Distribution specific installations (RPM, DEB, etc.) are not contained in this
+Distribution specific installations (DEB, etc.) are not contained in this
 source repository.
 
 
@@ -195,5 +192,3 @@ Further Documentation
 Once DKMS is installed, you can reference its man page for further information
 on different DKMS options and also to understand the formatting of a module's
 dkms.conf configuration file.
-
-The DKMS project is located at: https://github.com/dell/dkms
